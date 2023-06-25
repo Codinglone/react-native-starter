@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TextInput } from 'react-native';
 import Top from './components/Top';
 
 export default function App() {
@@ -7,6 +7,7 @@ export default function App() {
     <View style={styles.container}>
       <Top />
       <Text style={styles.text}>Sample React Native</Text>
+      <TextInput defaultValue='E-mail' />
       <StatusBar style="auto" />
     </View>
   );
